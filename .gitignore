@@ -7,3 +7,4 @@ logs/
 *.exe
 go.work
 go.work.sum
+.lh
