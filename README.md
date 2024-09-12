@@ -13,11 +13,12 @@
 
 新接触`cherry`的朋友，建议从 [示例](#示例) 开始。
 
-## 新增功能
+## 重要更新
 
 - **新增Actor model实现**
 - **新增simple网络数据包结构(id(4bytes) + dataLen(4bytes) + data(n bytes))**
-- **为保证框架精简，`examples`从仓库迁至 https://github.com/cherry-game/examples**
+- **`examples`示例已从cherry库迁出，新仓库地址: https://github.com/cherry-game/examples**
+- **文档地址: https://cherry-game.github.io/** 
 
 ## 讨论与交流
 
@@ -37,7 +38,7 @@
 - 实现发送消息
 - 实现广播消息
 
-开发环境配置请参考[env-setup.md](https://github.com/cherry-game/cherry/blob/master/_docs/env-setup.md)
+请参考[环境安装与配置](https://cherry-game.github.io/guides/install-go.html) 进行准备工作
 源码位于[examples/demo_chat](https://github.com/cherry-game/examples/tree/master/demo_chat)仓库
 
 
@@ -55,7 +56,7 @@
 - 选择 master 作为发现服务节点
 - 实现部份基础功能(区服列表、多 SDK 帐号体系、帐号注册、帐号登录、创建角色、角色登录)
 
-开发环境配置请参考[env-setup.md](https://github.com/cherry-game/cherry/blob/master/_docs/env-setup.md)
+请参考[环境安装与配置](https://cherry-game.github.io/guides/install-go.html) 进行准备工作
 源码位于[examples/demo_cluster](https://github.com/cherry-game/examples/tree/master/demo_cluster)仓库
 
 ## 核心功能
